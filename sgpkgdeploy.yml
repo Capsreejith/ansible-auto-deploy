@@ -16,5 +16,5 @@
   sudo: yes
 
   roles:
-  - apppkgs
+  - appserverpkgs
 
