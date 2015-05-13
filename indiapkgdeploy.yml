@@ -2,18 +2,21 @@
 
 - hosts: indiaboxes
   sudo: yes
+  remote_user: capillary
 
   roles:
   - update
 
 - hosts: indiaapi
   sudo: yes
+  remote_user: capillary
 
   roles:
   - apipkgs
 
 - hosts: indiaapp
   sudo: yes
+  remote_user: capillary
 
   roles:
   - appserverpkgs
