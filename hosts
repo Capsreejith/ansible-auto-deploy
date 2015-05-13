@@ -1,24 +1,24 @@
 [indiaboxes]
-54.204.202.118 #apiapp3
-54.197.26.154 #apiapp4
-54.211.201.4 #apiapp5
-54.160.160.121 #apiapp6
-174.129.75.98 #apiapp7
-54.82.22.222 #apiapp8-new
-54.92.232.0 #apiapp9
-54.167.53.23 #appserver
+54.204.202.118 ansible_ssh_user=capillary #apiapp3
+54.197.26.154 ansible_ssh_user=capillary #apiapp4
+54.211.201.4 ansible_ssh_user=capillary #apiapp5
+54.160.160.121 ansible_ssh_user=capillary #apiapp6
+174.129.75.98 ansible_ssh_user=capillary #apiapp7
+54.82.22.222 ansible_ssh_user=capillary #apiapp8-new
+54.92.232.0 ansible_ssh_user=capillary #apiapp9
+54.167.53.23 ansible_ssh_user=capillary #appserver
 
 [indiaapi]
-54.204.202.118 #apiapp3
-54.197.26.154 #apiapp4
-54.211.201.4 #apiapp5
-54.160.160.121 #apiapp6
-174.129.75.98 #apiapp7
-54.82.22.222 #apiapp8-new
-54.92.232.0 #apiapp9
+54.204.202.118 ansible_ssh_user=capillary #apiapp3
+54.197.26.154 ansible_ssh_user=capillary #apiapp4
+54.211.201.4 ansible_ssh_user=capillary #apiapp5
+54.160.160.121 ansible_ssh_user=capillary #apiapp6
+174.129.75.98 ansible_ssh_user=capillary #apiapp7
+54.82.22.222 ansible_ssh_user=capillary #apiapp8-new
+54.92.232.0 ansible_ssh_user=capillary #apiapp9
 
 [indiaapp]
-54.167.53.23 #appserver
+54.167.53.23 ansible_ssh_user=capillary #appserver
 
 [usboxes]
 10.2.15.57 #apiapp1
